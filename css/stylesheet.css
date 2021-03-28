@@ -1,0 +1,72 @@
+html {
+	background: url(../images/clockwork.jpg) no-repeat center center fixed;
+	}
+
+
+#content {
+	height: 768px;
+	width: 1024px;
+	border: 1px solid black;
+	margin: auto;
+	}
+
+#window {
+	background-color: #000080;
+	color: white;
+	font-family: Segoe UI;
+	font-weight: bold;
+	padding: 2px 2px 4px;
+	}
+
+#menu {}
+
+#icon {}
+
+#address {}
+
+#main {
+	overflow: scroll;
+	height: 606px;
+	background-color: green;
+	display: flex;
+	width: 100%;
+	}
+
+#mainleft {}
+
+#maincenter {
+	width: 80%;
+	height: 100%;
+	background-color: yellow;
+	}
+
+#mainright {}
+
+.bar {
+	background-color: rgb(192,192,192);
+	width: 1019px;
+	padding: 1px;
+	border: 2px solid darkgrey;
+	border-style: outset;
+	font-family: Segoe UI;
+	vertical-align: middle;
+	}
+
+.bar img {
+	padding: 0px 10px 0px 5px;
+	}
+
+.side {
+	width: 10%;
+	height: 100%;
+	background-color: orange;
+	}
+
+.headertext {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	}
+
+.maintext {
+	font-family: "Times New Roman";
+	padding: 10px;
+}
